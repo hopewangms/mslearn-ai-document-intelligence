@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Labfiles", "Labfiles", "{5C183B48-3771-49E5-B869-9E7D80259513}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01-prebuild-models", "01-prebuild-models", "{20F3171A-D7E8-4F06-9B98-BEAF81701785}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "invoicereader", "Labfiles\01-prebuild-models\CSharp\invoicereader.csproj", "{3F060784-E6E1-40E2-8AB2-A1110D7F111E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02-custom-document-intelligence", "02-custom-document-intelligence", "{D377DA51-629E-4288-ADB9-1EEF5DB8904E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "test-model", "Labfiles\02-custom-document-intelligence\C-Sharp\test-model.csproj", "{4C28F6CE-0B8C-486D-A8CD-33587B5F2B72}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3F060784-E6E1-40E2-8AB2-A1110D7F111E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F060784-E6E1-40E2-8AB2-A1110D7F111E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F060784-E6E1-40E2-8AB2-A1110D7F111E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F060784-E6E1-40E2-8AB2-A1110D7F111E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C28F6CE-0B8C-486D-A8CD-33587B5F2B72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C28F6CE-0B8C-486D-A8CD-33587B5F2B72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C28F6CE-0B8C-486D-A8CD-33587B5F2B72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C28F6CE-0B8C-486D-A8CD-33587B5F2B72}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{20F3171A-D7E8-4F06-9B98-BEAF81701785} = {5C183B48-3771-49E5-B869-9E7D80259513}
+		{3F060784-E6E1-40E2-8AB2-A1110D7F111E} = {20F3171A-D7E8-4F06-9B98-BEAF81701785}
+		{D377DA51-629E-4288-ADB9-1EEF5DB8904E} = {5C183B48-3771-49E5-B869-9E7D80259513}
+		{4C28F6CE-0B8C-486D-A8CD-33587B5F2B72} = {D377DA51-629E-4288-ADB9-1EEF5DB8904E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4EB37F32-E0F7-48CF-8A0E-CF0425CA177F}
+	EndGlobalSection
+EndGlobal
